@@ -1,0 +1,66 @@
+@use 'reset';
+
+//font-family: 'PT Sans', sans-serif;
+
+html {
+    font-size: 62.5%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #294e64;
+    color: #ccccb4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    img {
+        width: 150px;
+    }
+
+    h1 {
+        font-Size: 3.2rem;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+
+main {
+    label {
+        display: block;
+    }
+
+    input,
+    textarea {
+        background-color: #ccccb4;
+    }
+
+    textarea {
+        height: 16px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    button {
+        background-color: #27a7d8;
+        color: black;
+        border: none;
+        padding: 10px;
+        font-size: 2rem;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+
+    }
+}
+
+
